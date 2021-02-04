@@ -1,0 +1,196 @@
+body {
+    background: #fff;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+.section_title-dubai {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 1;
+    color: #000;
+}
+
+.btn-primary {
+ margin-top: 20px;
+}
+
+/*Navbar*/
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+
+.fa-coffee {
+    margin-right: 5px;
+}
+
+/*Intro*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+    background: url(bg2.jpg), center, no-repeat;
+    background-size: cover;
+}
+
+.intro_title_dubai {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1;
+    color: #000;
+}
+
+.intro_subtitle {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1;
+    color: #000;
+}
+
+.low-panel {
+    display: flex;
+    justify-content: center;
+}
+
+.plane {
+    margin-top: 150px;
+}
+
+/*Dubai*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+
+
+}
+
+.grid-item-01{
+    padding-right: 5px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.grid-item-02{
+    padding-bottom: 45px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.grid-item-03{
+     padding-right: 5px;
+    padding-bottom: 45px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.grid-title {
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 8px;
+    text-align: left;
+    line-height: 1;
+    color: #333;
+        font-weight: 500;
+}
+
+.grid-info {
+    margin-bottom: 8px;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: left;
+    line-height: 1;
+    color: #333;
+    font-weight: 500;
+}
+
+/*Footer*/
+.footerbg {
+    background: #ccff;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.footer-info span {
+    font-size: 13px;
+    margin-left: 30px;
+    color: #333;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-item {
+    margin-right: 20px;
+}
+
+.social-link {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.social-youtube {
+    background-image: url(youtube-square-brands.svg);
+}
+
+.social-instagram {
+    background-image: url(instagram-square-brands.svg);
+}
+
